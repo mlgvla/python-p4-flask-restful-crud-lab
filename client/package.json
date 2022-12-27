@@ -10,7 +10,7 @@
   },
   "scripts": {
     "build": "react-scripts build --openssl-legacy-provider",
-    "start": "react-scripts start --openssl-legacy-provider"
+    "start": "PORT=4000 react-scripts start --openssl-legacy-provider"
   },
   "eslintConfig": {
     "extends": [

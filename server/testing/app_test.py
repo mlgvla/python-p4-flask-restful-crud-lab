@@ -31,7 +31,7 @@ class TestPlant:
         response = app.test_client().patch(
             '/plants/1',
             json = {
-                "is_in_stock": False,
+                "is_in_stock": False
             }
         )
         data = json.loads(response.data.decode())
